@@ -4,7 +4,7 @@ using namespace std;
 
 int main(void) {
 
-	cout << "- AREAS AND PERIMETERS OF GEOMETRY SHAPES CALCULATOR -\n\n";
+	cout << "- AREAS AND CIRCUMFERENCES OF GEOMETRY SHAPES CALCULATOR -\n\n";
 
 	while(true){
 	cout << "Which type of geometry shape that you wanna calculate?\n\n";
@@ -19,7 +19,7 @@ int main(void) {
 
 	case 1:
 		int choice;
-		cout << "\nWhat you wanna calculate?\n\n1. Square Perimeter.\n2. Square Area.\n3. Exit.\n\nEnter your choice: ";
+		cout << "\nWhat you wanna calculate?\n\n1. Square Circumference.\n2. Square Area.\n3. Exit.\n\nEnter your choice: ";
 		cin >> choice;
 
 		cout << endl;
@@ -30,7 +30,7 @@ int main(void) {
 			cout << "Please type lenght of the square rib: ";
 			cin >> squareRib;
 
-			cout << "\n- The square perimeter is: " << squareRib * 4 << endl << endl;
+			cout << "\n- The square circumference is: " << squareRib * 4 << endl << endl;
 			break;
 
 		case 2:
@@ -55,7 +55,7 @@ int main(void) {
 
 	case 2:
 		int choice1;
-		cout << "\nWhat you wanna calculate?\n\n1. Triangle Perimeter.\n2. Triangle Area.\n3. Exit.\n\nEnter your choice: ";
+		cout << "\nWhat you wanna calculate?\n\n1. Triangle Circumference.\n2. Triangle Area.\n3. Exit.\n\nEnter your choice: ";
 		cin >> choice1;
 
 		cout << endl;
@@ -74,7 +74,7 @@ int main(void) {
 			cout << "Please type lenght of the third triangle rib: ";
 			cin >> thirdTriangleRib;
 
-			cout << "\n- The triangle perimeter is: " << firstTriangleRib + secondTriangleRib + thirdTriangleRib << endl << endl;
+			cout << "\n- The triangle circumference is: " << firstTriangleRib + secondTriangleRib + thirdTriangleRib << endl << endl;
 			break;
 
 		case 2:
@@ -103,7 +103,7 @@ int main(void) {
 
 	case 3:
 		int choice2;
-		cout << "\nWhat you wanna calculate?\n\n1. Circle Perimeter.\n2. Circle Area.\n3. Exit.\n\nEnter your choice: ";
+		cout << "\nWhat you wanna calculate?\n\n1. Circle Circumference.\n2. Circle Area.\n3. Exit.\n\nEnter your choice: ";
 		cin >> choice2;
 
 		cout << endl;
@@ -114,7 +114,7 @@ int main(void) {
 			cout << "Please type lenght of radius of the circle: ";
 			cin >> circleRadius;
 
-			cout << "\n- The circle perimeter is: " << circleRadius * 2 * 3.14 << endl << endl;
+			cout << "\n- The circle circumference is: " << circleRadius * 2 * 3.14 << endl << endl;
 			break;
 
 		case 2:
@@ -139,7 +139,7 @@ int main(void) {
 
 	case 4:
 		int choice3;
-		cout << "\nWhat you wanna calculate?\n\n1. Recatngle Perimeter.\n2. Rectangle Area.\n3. Exit.\n\nEnter your choice: ";
+		cout << "\nWhat you wanna calculate?\n\n1. Recatngle Circumference.\n2. Rectangle Area.\n3. Exit.\n\nEnter your choice: ";
 		cin >> choice3;
 
 		cout << endl;
@@ -154,7 +154,7 @@ int main(void) {
 			cout << "Please type width of the rectangle: ";
 			cin >> rectangleWidth;
 
-			cout << "\n- The rectangle perimeter is: " << (rectangleLenght + rectangleWidth) * 2 << endl << endl;
+			cout << "\n- The rectangle circumference is: " << (rectangleLenght + rectangleWidth) * 2 << endl << endl;
 			break;
 
 		case 2:
